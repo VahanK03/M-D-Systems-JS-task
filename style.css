@@ -1,0 +1,55 @@
+#actionsWrapper {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+#colorList {
+  display: flex;
+  flex-direction: row;
+}
+
+.colorListElement {
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: end;
+}
+
+.closeButton {
+  width: 40px;
+  height: 20px;
+  background: rgb(132, 200, 200);
+  text-align: center;
+  font-size: 16;
+  color: #000;
+}
+
+.slider {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderItem {
+  width: 800px;
+  height: 400px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sliderButton {
+  height: fit-content;
+  padding: 5px;
+}
+
+.activeSlide {
+  opacity: 1 !important;
+}
+
+.dn {
+  display: none;
+}
